@@ -1,0 +1,183 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+body{
+    background: url("고양이 종별 이름/catback.jpg");
+}
+.header{
+    width: 95%;
+    height: 80;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 a {
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin:0 10px;
+}
+.header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+}
+.header .nav ul li a:hover{
+    color: #1fdfdf;
+}
+h1{
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+}
+h3{
+    text-align: center;
+    font: oblique;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.darkcat{
+    position: absolute;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    left: 36%;
+}
+.darkcat button{
+    background-color: rgba(240, 240, 240);
+    border-radius: 50%;
+    border:0px
+}
+.darkcat button:hover{
+    border:5px solid black;
+}
+.darkcat span.click{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: none;
+    width: 100%;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;    
+    color: rgb(255, 255, 255);
+    font-family: abster;
+}
+.eyes{
+    position: absolute;
+    left: 26%;
+    top: 15%;
+}
+.eye1{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+}
+.eyeball1{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.eyeball2{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.eye2{
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 5px;
+}
+.navcat{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    opacity: 0;
+}
+
+.all{
+    display: none;
+    opacity: 0;
+    align-items: center;
+    margin:auto;
+    width: 0px;
+    height: 540px;
+    border: 5px solid #6b6b6b;
+    border-radius:10px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: -10px -3px 10px -5px rgb(0, 0, 0);
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 580px;
+    height: 520px;
+    border: 1px solid #5e5e5e;
+    padding: 5px;
+    border-radius:15px;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: -2px -3px 10px -5px rgb(0, 0, 0);
+}
+.container2{
+    position: relative;
+    top: -8px;
+    left: -5px;
+    width: 580px;
+    height: 520px;
+    border: 1px solid #afafaf;
+    padding: 5px 0px 0px 5px;
+    border-radius:15px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: -5px -3px 10px -5px rgb(0, 0, 0);
+}
+.name{
+    padding: 10px;
+    text-align: center;
+}
+.gallery{
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    background-color: none;
+}
+.gallery img{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    width: 100%;
+    height: 105px;
+}
+.cats{
+    margin: 10px 2px 5px 35px;
+    display: block;
+    float: left;
+    height: 150px;
+    width: 25%;
+    border-radius:5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(179, 179, 179);
+}
+.cats:hover{
+    background-color: #b4b4b4;
+}
